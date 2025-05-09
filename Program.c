@@ -1,5 +1,5 @@
 /**
- * Disk Scheduling Algorithms Implementation (Beautified Style)
+ * Disk Scheduling Algorithms Implementation
  *
  * This program implements three disk scheduling algorithms:
  * 1. FCFS (First Come First Served)
@@ -18,7 +18,7 @@
 #include <string.h>
 
 #define CYLINDERS 5000 // Total number of cylinders (0-4999)
-#define REQUESTS 5     // Number of requests to process
+#define REQUESTS 5     // Number of requests to process , chagnge it as needed
 
 // Direction constants
 #define DIRECTION_OUTWARD 0 // Moving toward higher cylinder numbers (0 -> 4999)
